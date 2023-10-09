@@ -1,0 +1,39 @@
+{
+  "name": "node_scaffolding",
+  "packageManager": "yarn@3.5.0",
+  "scripts": {
+    "start": "env-cmd -f .env.production babel-node ./src/server.js",
+    "dev": "env-cmd -f .env.development nodemon ./src/server.js --exec babel-node"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.35.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "env-cmd": "^10.1.0",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "express-rate-limit": "^6.7.0",
+    "express-useragent": "^1.0.15",
+    "git-commit-msg-linter": "^4.9.3",
+    "helmet": "^6.0.1",
+    "hpp": "^0.2.3",
+    "joi": "^17.9.1",
+    "jsonwebtoken": "^9.0.0",
+    "moment": "^2.29.4",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.1",
+    "passport": "^0.6.0",
+    "passport-google-oauth20": "^2.0.0",
+    "pg": "^8.10.0",
+    "qrcode": "^1.5.1",
+    "sequelize": "^6.30.0",
+    "speakeasy": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
