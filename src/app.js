@@ -42,7 +42,7 @@ app.set('trust proxy', 1);
 
 // Router
 app.get('/', (req, res, next) => {
-  sendMessage(res, 'Welcome to node app :), Build by Morol');
+  sendMessage(res, 'Welcome to node app :), Build by Ashiq');
 });
 app.use('/api/v1', router);
 app.get('/docs', (req, res) => {
